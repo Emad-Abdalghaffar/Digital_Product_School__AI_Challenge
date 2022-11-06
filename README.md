@@ -13,7 +13,9 @@
 
 ### “Flast” is used in building the web-app.
 
-### “Heroku” is used in deployng the web-app.
+### “Heroku” is used in deployng the web-app.  (https://ai-challenge-dps.herokuapp.com/)
+![image](https://user-images.githubusercontent.com/49419884/200169934-6840d8d4-a818-4697-a441-aaf298e4cf63.png)
+
 
 <br/><br/>
 #### AI MODELS
