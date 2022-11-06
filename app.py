@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 import pandas as pd
 import numpy as np
 import joblib
-import keras
 
 
 #_______________________________________________________________________
@@ -94,10 +93,7 @@ def prediction():
                       "MONAT": [datapoint[3]]}
     print(datapoint)
     if len(datapoint[4]) != 0:
-        if datapoint[4] == "sq_model.h5":
-            model = keras.models.load_model(datapoint[4])
-        else:
-            model = joblib.load(datapoint[4])
+        model = joblib.load(datapoint[4])
     else:
         model = joblib.load("MLPreg_model.pkl")
     
