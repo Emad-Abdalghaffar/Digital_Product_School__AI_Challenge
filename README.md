@@ -3,15 +3,15 @@
 ## Emad Abdalghaffar (emad.abdalghaffar@gmail.com)
 ## DPS Applicant (Batch#18)
 
-### Forcasting Number of Future Accidents Under Certain Circumstances
+### Forcasting the Number of Future Accidents Under Certain Circumstances
 
 ### The final notebooks:
 - Accident_Pred_02: EDA
-- Accident_Pred_05: Data preparation & preprocessing, prediction function and the prediction models 
+- Accident_Pred_05: data preparation & preprocessing, prediction function and the prediction models.
 
-### “Monatszahlen Verkehrsunfälle” Dataset in training the models.
+### “Monatszahlen Verkehrsunfälle” Dataset is used in training the models.
 
-### “Flast” is used in building the web-app.
+### “Flask” is used in building the web-app.
 
 ### “Heroku” is used in deployng the web-app.  (https://ai-challenge-dps.herokuapp.com/)
 ![image](https://user-images.githubusercontent.com/49419884/200169934-6840d8d4-a818-4697-a441-aaf298e4cf63.png)
