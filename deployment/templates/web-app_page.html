@@ -1,0 +1,52 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" cotent="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale-1.0">
+  <title>DPS</title>
+  <style>
+    h6 {font-size: 16px !important;}
+    button {background-color: #0d9aba;
+            border: none;
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            cursor: pointer;}
+  </style>
+</head>
+
+<body style="background-color: lightblue; text-align:center">
+  <h1>DPS AI_Challenge 🧠</h1>
+  <h2>Batch#18 🦾<br>Emad Abdalghaffar 🤞</h2><br>
+  <h3>select.. & hit 'predict' 😛</h3>
+
+  <form action= {{'prediction'}} method="post">
+
+    <label for="category">choose a category:</label>
+    <select name="category" id="category">
+      <option value="Alkoholunfälle">Alkoholunfälle</option>
+      <option value="Fluchtunfälle">Fluchtunfälle</option>
+      <option value="Verkehrsunfälle">Verkehrsunfälle</option>
+    </select><br><br>
+
+    <label for="loss">choose a loss type:</label>
+    <select name="loss" id="loss">
+      <option value="Verletzte und Getötete">Verletzte und Getötete</option>
+      <option value="insgesamt">insgesamt</option>
+      <option value="mit Personenschäden">mit Personenschäden</option>
+    </select><br><br>
+    
+    <input type="text" name="year" placeholder="(required)   Year    (e.g.: 2037)" required="required" size="25"/><br><br>
+    <input type="text" name="month" placeholder="(required)   Month (e.g.: 7)" required="required" size="25"/><br><br>
+    <input type="text" name="model" placeholder="(optional)   ML model: MLPreg_model.pkl (default) / sq_model.h5 / kN_model.pkl" size="65"/><br><br><br>
+    
+    <button type="submit">predict 🧐</button><br><br><br>
+  
+  </form>
+  <h6 font-size: 0.5em;> {{prediction_preamble}} </h6>
+</body>
+</html>
