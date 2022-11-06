@@ -14,3 +14,15 @@
 ### “Flast” is used in building the web-app.
 
 ### “Heroku” is used in deployng the web-app.
+
+<br/><br/>
+#### AI MODELS
+
+#### 1) MLPRegressor
+![image](https://user-images.githubusercontent.com/49419884/200169424-f0e41029-5205-4fe7-8cca-df164c20a598.png)
+<br/>
+#### 2) KNeighborsRegressor
+![image](https://user-images.githubusercontent.com/49419884/200169341-5c161e76-b1fb-4b1e-9662-fe40f6b3c025.png)
+
+
+
